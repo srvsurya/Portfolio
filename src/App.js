@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route,} from 'react-router-dom';
 import Hero from "./components/hero.js";
 import Work from "./components/work.js";
+import Contact from "./components/contact.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero/>} />
         <Route path="/work" element={<Work/>} />
+        <Route path="/contact" element={<Contact/>} />
         
       </Routes>
       
